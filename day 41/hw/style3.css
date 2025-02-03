@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-color: #ffe6d5;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #df6d63;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: #b54737;
+}

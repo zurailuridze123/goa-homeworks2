@@ -1,0 +1,32 @@
+img{
+    border-radius: 100%;
+    width: 100px;
+}
+
+.perent{
+    border: 5px black solid;
+    display: flex;
+    flex-direction: row;
+    width:540px;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+  border: 4px black solid;
+  text-align: center;
+  background: linear-gradient(to top, #4c73b6, #1a2e4f);
+}
+
+.div2{
+    border: 4px black solid;
+    text-align: center;
+    background: linear-gradient(to top, #4c73b6, #1a2e4f);
+}
+
+  .div3{
+    border: 4px black solid;
+    text-align: center;
+    background: linear-gradient(to top, #4c73b6, #1a2e4f);
+  }
+
+    

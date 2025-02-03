@@ -1,0 +1,29 @@
+body {
+      background: linear-gradient(135deg, #a385c4, #4668a2);
+      font-family: Arial, sans-serif;
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+    }
+
+    table {
+      width: 800px;
+      margin: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      background-color: rgba(7, 5, 5, 0.5);
+    }
+
+    tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
