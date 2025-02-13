@@ -1,0 +1,13 @@
+.boxs {
+  display: flex;
+}
+
+.box{
+  border: 2px solid green;
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+  width: 100px;
+  height: 200px;
+  display: flex; 
+}
