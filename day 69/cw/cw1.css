@@ -1,0 +1,26 @@
+  .container {
+    max-width: 1200px;
+    margin: 0; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .lomi{
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none; 
+    display: flex; 
+  }
+  
+  nav li {
+    margin-left: 30px;
+  }
+  
+  nav a {
+    text-decoration: none; 
+    color: #000000; 
+  }
+  

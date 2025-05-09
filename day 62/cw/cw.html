@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #beb5b5;
+        }
+
+        .card {
+            max-width: 800px;
+            background: #fff;
+            margin: 0 auto;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+            margin-bottom: 50px;
+            animation-name: fadein;
+            animation-duration: 2000ms;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            overflow: hidden;
+        }
+
+        @keyframes fadein {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+                background: #888888;
+                transform: scale(1) translateX(-300px) rotateX(100deg) skewX(302deg);
+            }
+            70% {
+                transform:scale(1.5) translateY(100px) rotateY(-80deg) skewY(220deg);
+            }
+            80%{
+                background: #dd5e5e;
+            }
+            100% {
+                opacity: 1;
+                background: #27ff4b;
+            }
+        }
+
+        .delay-300 {
+            animation-delay: 75ms;
+        }
+
+        .delay-800 {
+            animation-delay: 1000ms;
+        }
+        img{
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+<div class="card"><img src="image.png" alt=""></div>
+<div class="card delay-300"><img src="image copy 2.png" alt="">
+</div>
+<div class="card delay-800"><img src="" alt="">
+</body>
+</html>
